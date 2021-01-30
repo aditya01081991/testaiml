@@ -64,7 +64,8 @@ api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
 api.add_resource(Tpt, '/trans')
 
-app.run(port= 5000, debug = True)
+# app.run(port= 5000, debug = True)
+app.run(host = '0.0.0.0')
 
 
 
